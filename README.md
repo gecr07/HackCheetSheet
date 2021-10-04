@@ -27,15 +27,18 @@ journalctl -u ssh.service --no-pager
 Linea para crear un servidor web que yo he probado y me han funcionado.
 
 <h4>PHP</h4>
+
 ```php
 php -S 127.0.0.1:8000
 ```
 <h4>Python</h4>
+
 ```python
 python -m http.server 8000
 ```
 
 <h4>NodeJs</h4>
+
 ```javascript
 $ npm install -g node-static   # install dependency
 $ static -p 8000
