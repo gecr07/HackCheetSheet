@@ -29,7 +29,12 @@ find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -
 ```
 El comando netstat sustituido por ss
 ```bash
-ss -l -4 | grep -v "127\.0\.0" | grep "LISTEN" | wc -l
+ss -l -4 | grep -v "127\.0\.0" | grep "LISTEN" | wc -l #Saca todas las conecciones en escucha sin localhost y te dice cuantas hay
+```
+CURL una especie de spider para ver rutas en una pagina
+
+```bash
+curl https://www.inlanefreight.com > htb.txt && cat htb.txt | tr " " "\n" | cut -d"'" -f2 | cut -d'"' -f2 | grep "www.inlanefreight.com" | sort -u | wc -l
 ```
 
 
