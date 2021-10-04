@@ -27,6 +27,11 @@ El comando find y sus multiples usos!
 find / -name *.conf -type f -size +25k -size -28k 2>/dev/null # archivo de peso mayor a 25k y menor a 28k!
 find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -al {} \; 2>/dev/null # ejecuta con lo que encuentra el comando {} aqui se pone el nombre que se vaya encontrando lo probe con cp intentalo!
 ```
+El comando netstat sustituido por ss
+```bash
+ss -l -4 | grep -v "127\.0\.0" | grep "LISTEN" | wc -l
+```
+
 
 <h2> 😊 Web Servers😊 </h2>
 
