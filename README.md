@@ -9,4 +9,8 @@ Checar todos los paquetes instalados.
 ```bash
 apt list --installed
 ```
+To add OpenSSH to the SysV script to tell the system to run this service after startup, we can link it with the following command:
 
+```bash
+systemctl enable ssh
+```
