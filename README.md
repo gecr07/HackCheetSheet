@@ -21,6 +21,12 @@ The tool journalctl to view the logs. Se puede ver que usuario inicio el servici
 ```bash
 journalctl -u ssh.service --no-pager
 ```
+El comando find y sus multiples usos!
+
+```bash
+find / -name *.conf -type f -size +25k -size -28k 2>/dev/null # archivo de peso mayor a 25k y menor a 28k!
+find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -al {} \; 2>/dev/null # ejecuta con lo que encuentra el comando {} aqui se pone el nombre que se vaya encontrando lo probe con cp intentalo!
+```
 
 <h2> 😊 Web Servers😊 </h2>
 
