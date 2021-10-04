@@ -40,7 +40,14 @@ python -m http.server 8000
 <h4>NodeJs</h4>
 
 ```javascript
-$ npm install -g node-static   # install dependency
-$ static -p 8000
+npm install -g node-static   # install dependency
+static -p 8000
 ```
+<h4>PERL</h4>
+
+```perl
+cpan HTTP::Server::Brick   # install dependency
+perl -MHTTP::Server::Brick -e '$s=HTTP::Server::Brick->new(port=>8000); $s->mount("/"=>{path=>"."}); $s->start'
+```
+
 
