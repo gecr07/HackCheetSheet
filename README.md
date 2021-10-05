@@ -73,5 +73,15 @@ tcpdump
 sudo tcpdump -i eth0 host 10.10.14.2 and 10.129.2.28 # captura en la interfaz eth0
 ```
 
+<h2> 😊 Reverse Shells </h2>
 
+Conección simple 
 
+```bash
+nc 127.0.0.1 80
+```
+NC a la escucha para recibir conexiones
+
+```bash
+nc -lvnp 8080 
+```
