@@ -121,9 +121,4 @@ DNS Proxy
 ```bash
 nmap 10.9.2.2 -p5000 -sS -Pn -n --disable-arp-ping --packet-trace --source-port 53
 ```
-<h4>filtered No responde un puerto </h4>
-<h4>unfiltered TCP ANK responde pero no se sabe si esta abierto o cerrado</h4>
-<h4>closed regresa un RST</h4>
-<h4>--packet-trace para ver lo que envia y recibe</h4>
-<h4>drop no responde porque hay un firewall</h4>
-<h4>rejected si responde pero con codigos de error</h4>
+
