@@ -85,3 +85,45 @@ NC a la escucha para recibir conexiones
 ```bash
 nc -lvnp 8080 
 ```
+ncat nc de nmap tiene varias opciones
+
+```bash
+ncat -nv --source-port 53 IP 8080 #TO BYPASS IDS/IPS
+```
+
+<h2> Nmap </h2>
+
+Host Discovery
+
+```bash
+nmap 10.10.2.0/24 -sn# antes -sP
+```
+filtered No responde un puerto
+unfiltered TCP ANK responde pero no se sabe si esta abierto o cerrado
+closed regresa un RST
+--packet-trace para ver lo que envia y recibe
+drop no responde porque hay un firewall
+rejected si responde pero con codigos de error
+
+ACK escaneo
+
+```bash
+nmap 10.1.20.1 -p 21,22 -sA -Pn -n --disable-arp-ping --packet-trace
+```
+
+Random IPs para escanear
+
+```bash
+nmap 10.129.2.28 -p 80 -sS -Pn -n --disable-arp-ping --packet-trace -D RND:5
+```
+
+Scan by Using Different Source IP
+
+```bash
+nmap 10.12.2.8 -n -Pn -p 445 -O -S 10.9.2.0 -e tun0
+```
+DNS Proxy
+
+```bash
+nmap 10.9.2.2 -p5000 -sS -Pn -n --disable-arp-ping --packet-trace --source-port 53
+```
