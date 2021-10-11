@@ -42,30 +42,30 @@ curl https://www.inlanefreight.com > htb.txt && cat htb.txt | tr " " "\n" | cut 
 
 Linea para crear un servidor web que yo he probado y me han funcionado.
 
-<h4>⭐️PHP</h4>
+<h4>PHP</h4>
 
 ```php
 php -S 127.0.0.1:8000
 ```
-<h4>⭐️Python</h4>
+<h4>Python</h4>
 
 ```python
 python -m http.server 8000
 ```
 
-<h4>⭐️NodeJs</h4>
+<h4>NodeJs</h4>
 
 ```javascript
 npm install -g node-static   # install dependency
 static -p 8000
 ```
-<h4>⭐️PERL</h4>
+<h4>PERL</h4>
 
 ```perl
 cpan HTTP::Server::Brick   # install dependency
 perl -MHTTP::Server::Brick -e '$s=HTTP::Server::Brick->new(port=>8000); $s->mount("/"=>{path=>"."}); $s->start'
 ```
-<h2>⭐️ Sniffers </h2>
+<h2>Sniffers </h2>
 
 tcpdump
 
