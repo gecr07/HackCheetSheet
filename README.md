@@ -38,34 +38,34 @@ curl https://www.inlanefreight.com > htb.txt && cat htb.txt | tr " " "\n" | cut 
 ```
 
 
-<h2> 😊 Web Servers😊 </h2>
+<h2>⭐️ Web Server </h2>
 
 Linea para crear un servidor web que yo he probado y me han funcionado.
 
-<h4>PHP</h4>
+<h4>⭐️PHP</h4>
 
 ```php
 php -S 127.0.0.1:8000
 ```
-<h4>Python</h4>
+<h4>⭐️Python</h4>
 
 ```python
 python -m http.server 8000
 ```
 
-<h4>NodeJs</h4>
+<h4>⭐️NodeJs</h4>
 
 ```javascript
 npm install -g node-static   # install dependency
 static -p 8000
 ```
-<h4>PERL</h4>
+<h4>⭐️PERL</h4>
 
 ```perl
 cpan HTTP::Server::Brick   # install dependency
 perl -MHTTP::Server::Brick -e '$s=HTTP::Server::Brick->new(port=>8000); $s->mount("/"=>{path=>"."}); $s->start'
 ```
-<h2> Sniffers </h2>
+<h2>⭐️ Sniffers </h2>
 
 tcpdump
 
@@ -73,7 +73,7 @@ tcpdump
 sudo tcpdump -i eth0 host 10.10.14.2 and 10.129.2.28 # captura en la interfaz eth0
 ```
 
-<h2> 😊 Reverse Shells </h2>
+<h2>⭐️Reverse Shells </h2>
 
 Conección simple 
 
@@ -91,7 +91,7 @@ ncat nc de nmap tiene varias opciones
 ncat -nv --source-port 53 IP 8080 #TO BYPASS IDS/IPS
 ```
 
-<h2> Nmap </h2>
+<h2>⭐️ Nmap </h2>
 
 Host Discovery
 
@@ -120,5 +120,10 @@ DNS Proxy
 
 ```bash
 nmap 10.9.2.2 -p5000 -sS -Pn -n --disable-arp-ping --packet-trace --source-port 53
+```
+<h2> 🌐 Linux Basic (BRE) VS extended (ERE) regular expression </h2>
+
+```bash
+In GNU sed, the only difference between basic and extended regular expressions is in the behavior of a few special characters: ‘?’, ‘+’, parentheses, braces (‘{}’), and ‘|’.
 ```
 
