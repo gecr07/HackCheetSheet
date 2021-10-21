@@ -4,6 +4,13 @@ Este sera un repositorio en donde ire añadiendo todo el conocimiento que vaya a
 
 <h2> 💻 Linux 💻</h2>
 
+No genera el salto de línea final
+
+```bash
+echo "something" | md5sum # es diferente por el salto de linea que echo genera al final.
+echo -n "something" | md5sum # para cuanod haces hash ten en cuenta
+```
+
 Checar todos los paquetes instalados.
 
 ```bash
