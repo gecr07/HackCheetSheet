@@ -16,6 +16,11 @@ Checar todos los paquetes instalados.
 ```bash
 apt list --installed
 ```
+Contar palabras repetidas 
+
+```bash
+grep -o -i mauris ejemplo.txt | wc -l
+```
 
 To add OpenSSH to the SysV script to tell the system to run this service after startup, we can link it with the following command:
 
