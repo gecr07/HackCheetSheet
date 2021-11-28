@@ -9,6 +9,8 @@ No genera el salto de línea final
 ```bash
 echo "something" | md5sum # es diferente por el salto de linea que echo genera al final.
 echo -n "something" | md5sum # para cuanod haces hash ten en cuenta
+echo -e "text\n" >> file.conf #-e permite a echo trabajar con \n
+echo -n "String sin newline" # para que no use new line 
 ```
 
 Checar todos los paquetes instalados.
