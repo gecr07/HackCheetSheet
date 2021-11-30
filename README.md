@@ -199,5 +199,7 @@ Generar Usernames
 usernameGenerator.sh <First Name> <Last Name>
 ```
 
+SSH 
 
+También es posible leer claves privadas locales en un sistema comprometido o agregar nuestra clave pública para obtener acceso SSH a un usuario específico
 
