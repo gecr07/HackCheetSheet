@@ -29,6 +29,11 @@ To add OpenSSH to the SysV script to tell the system to run this service after s
 ```bash
 systemctl enable ssh
 ```
+Netstat para saber las redes a las que tenemos acceso cuando estamos conectados a una vpn
+
+```bash
+netstat -rn #will show us the networks accessible via the VPN.
+```
 
 The tool journalctl to view the logs. Se puede ver que usuario inicio el servicio.
  
