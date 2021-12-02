@@ -203,3 +203,9 @@ usernameGenerator.sh <First Name> <Last Name>
 
 También es posible leer claves privadas locales en un sistema comprometido o agregar nuestra clave pública para obtener acceso SSH a un usuario específico
 
+<h2> 💻 Proxying Metasploit through BurpSuite 💻</h2>
+
+```bash
+set PROXIES HTTP:127.0.0.1:8080
+
+```
