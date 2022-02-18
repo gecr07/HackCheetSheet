@@ -210,10 +210,15 @@ set PROXIES HTTP:127.0.0.1:8080
 
 ```
 
-<h3> shasum VS sha256sum</h3>⭐️
+<h3> Diferencia shasum VS sha256sum</h3>⭐️
 
 
 ```bash
 echo 010010101 | shasum -a 256 -0 #-a para elegir algoritmo puede ser 512 o el clasico 256. El -0 le indica que interprete la entrada en bits
 
 ```
+```bash
+echo 010010101 | shasum -a 256 -0 #-a para elegir algoritmo puede ser 512 o el clasico 256. El -0 le indica que interprete la entrada en bits
+#Usar este al parecer!
+```
+
