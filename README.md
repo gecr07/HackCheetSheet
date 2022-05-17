@@ -221,4 +221,19 @@ echo 010010101 | shasum -a 256 -0 #-a para elegir algoritmo puede ser 512 o el c
 echo 010010101 | shasum -a 256 -0 #-a para elegir algoritmo puede ser 512 o el clasico 256. El -0 le indica que interprete la entrada en bits
 #Usar este al parecer!
 ```
+## Masscan
+
+Una explicacion mas detalla sobre el uso de masscan donde se entiende mejor que otras.
+
+> https://danielmiessler.com/study/masscan/
+
+
+
+
+
+
+
+
+
+
 
