@@ -13,6 +13,13 @@ echo -e "text\n" >> file.conf #-e permite a echo trabajar con \n
 echo -n "String sin newline" # para que no use new line 
 ```
 
+## Incrementar una variable
+
+```bash 
+i=0
+i=$((i+1))
+```
+
 Checar todos los paquetes instalados.
 
 ```bash
