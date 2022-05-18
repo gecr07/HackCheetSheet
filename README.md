@@ -13,6 +13,14 @@ echo -e "text\n" >> file.conf #-e permite a echo trabajar con \n
 echo -n "String sin newline" # para que no use new line 
 ```
 
+## Grepear solo direcciones IP
+
+```bash
+grep -oP "\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}"
+```
+
+
+
 ## Incrementar una variable
 
 ```bash 
