@@ -12,6 +12,10 @@ echo -n "something" | md5sum # para cuanod haces hash ten en cuenta
 echo -e "text\n" >> file.conf #-e permite a echo trabajar con \n
 echo -n "String sin newline" # para que no use new line 
 ```
+## Desisntalar un paquete
+
+> 
+
 
 ## Grepear solo direcciones IP
 
@@ -243,6 +247,9 @@ Una explicacion mas detalla sobre el uso de masscan donde se entiende mejor que 
 > https://danielmiessler.com/study/masscan/
 
 
+## Descargar un Torret 
+
+>sudo apt-get install qbittorrent
 
 
 
