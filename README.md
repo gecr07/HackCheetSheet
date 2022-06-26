@@ -111,6 +111,15 @@ tcpdump
 sudo tcpdump -i eth0 host 10.10.14.2 and 10.129.2.28 # captura en la interfaz eth0
 ```
 
+Capturar trafico solo de un protocolo
+
+```
+tcpdump -i eth0 icmp
+
+
+```
+
+
 <h2>⭐️Reverse Shells </h2>
 
 Conección simple 
