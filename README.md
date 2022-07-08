@@ -18,6 +18,8 @@ echo -n "String sin newline" # para que no use new line
 
 ## Crear Listas
 
+> https://macul.ciencias.uchile.cl/~vmunoz/homepage/tips/sed.html
+
 SED para concatenar un string al inicio
 
 ```
