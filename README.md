@@ -16,6 +16,28 @@ echo -n "String sin newline" # para que no use new line
 
 > 
 
+## Crear Listas
+
+SED para concatenar un string al inicio
+
+```
+sed  's/^/MASA/g'
+sed  's/^/MASA/' # asi tambien jala
+```
+
+SED para concatenar al final
+
+```
+sed  's/$/MASA/g'
+sed  's/$/MASA/'
+```
+
+SED para sustituir todas la coincidencias
+
+```
+sed  's/stringabuscar/stringporlaquesustituir/g'
+```
+
 
 ## Grepear solo direcciones IP
 
