@@ -16,6 +16,20 @@ echo -n "String sin newline" # para que no use new line
 
 > 
 
+## Bash 
+
+Bash las command exit code 0 succes 1 some error
+
+```
+echo $?
+
+```
+Bash las command argument 
+
+```
+cd !$
+```
+
 ## Crear Listas
 
 > https://macul.ciencias.uchile.cl/~vmunoz/homepage/tips/sed.html
