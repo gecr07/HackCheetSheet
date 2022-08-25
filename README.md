@@ -18,6 +18,13 @@ echo -n "String sin newline" # para que no use new line
 
 ## Bash 
 
+Para crear un directorio temporal y cambiarte el el esta herrmaienta pushd esta medio rata
+
+```
+pushd "$(mktemp -d)"
+
+```
+
 Regresar al ultimo directorio en el que estuvimos
 
 ```
