@@ -23,6 +23,8 @@ Para crear un directorio temporal y cambiarte el el esta herrmaienta pushd esta 
 ```
 pushd "$(mktemp -d)"
 
+dirs -v
+
 ```
 
 Regresar al ultimo directorio en el que estuvimos
