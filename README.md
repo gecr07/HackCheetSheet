@@ -18,6 +18,12 @@ echo -n "String sin newline" # para que no use new line
 
 ## Bash 
 
+Regresar al ultimo directorio en el que estuvimos
+
+```
+cd -
+```
+
 Bash las command exit code 0 succes 1 some error
 
 ```
