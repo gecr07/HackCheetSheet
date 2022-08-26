@@ -18,6 +18,17 @@ echo -n "String sin newline" # para que no use new line
 
 ## Bash 
 
+Uso de comillas invertidas `command` esto quiere decir que el comando dentro de las comillas se ejecutara para eso sirve:
+
+```
+echo "Hola esta es una prueba sobre el uso de comillas invertidas estmos en el dir `pwd`"
+
+OUTPUT 
+
+Hola esta es una prueba sobre el uso de comillas invertidas estmos en el dir /opt/pyKerbrute
+
+```
+
 Para crear un directorio temporal y cambiarte el el esta herrmaienta pushd esta medio rata
 
 ```
