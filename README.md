@@ -19,6 +19,7 @@ echo -n "String sin newline" # para que no use new line
 ## Bash 
 
 Uso de comillas invertidas `command` esto quiere decir que el comando dentro de las comillas se ejecutara para eso sirve:
+>Las comillas invertidas (`) son interpretadas como sustitución de comandos, es decir, los comandos que estén dentro serán pasados al comando que lo preceden.
 
 ```
 echo "Hola esta es una prueba sobre el uso de comillas invertidas estmos en el dir `pwd`"
@@ -26,6 +27,8 @@ echo "Hola esta es una prueba sobre el uso de comillas invertidas estmos en el d
 OUTPUT 
 
 Hola esta es una prueba sobre el uso de comillas invertidas estmos en el dir /opt/pyKerbrute
+
+https://weblinus.com/diferencia-entre-comillas-dobles-comillas-simples-y-comillas-invertidas-en-shell-scripting/#:~:text=Las%20comillas%20invertidas%20%C2%AB%60%C2%BB%20son,al%20comando%20que%20lo%20precede.
 
 ```
 
