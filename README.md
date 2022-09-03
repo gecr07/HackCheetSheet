@@ -226,6 +226,13 @@ Host Discovery
 ```bash
 nmap 10.10.2.0/24 -sn# antes -sP
 ```
+# NMAP elijiendo la interfaz
+
+```
+nmap -e <INTERFACE> scanme.nmap.org
+
+```
+
 
 ACK escaneo
 
