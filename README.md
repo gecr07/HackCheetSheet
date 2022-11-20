@@ -6,6 +6,16 @@ Este sera un repositorio en donde ire añadiendo todo el conocimiento que vaya a
 
 > https://superuser.com/questions/398670/when-would-you-use-apt-get-remove-over-apt-get-autoremove#:~:text=remove%20will%20delete%20the%20specified,and%20safe%20command%20is...
 
+# Postgre notas
+
+> https://www.linuxtechi.com/how-to-install-postgresql-on-ubuntu/
+> https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757
+
+
+# Openvas
+
+> https://linuxhint.com/install-openvas-kali-linux/
+> https://www.ceos3c.com/security/install-openvas-kali-linux/
 
 <h2> 💻 Linux 💻</h2>
 
