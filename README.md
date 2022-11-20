@@ -2,6 +2,11 @@
 
 Este sera un repositorio en donde ire añadiendo todo el conocimiento que vaya adquiriendo sera una guia para mi ojala le pueda servir a alguien como a mi. 
 
+# sudo apt remove vs autoremove
+
+> https://superuser.com/questions/398670/when-would-you-use-apt-get-remove-over-apt-get-autoremove#:~:text=remove%20will%20delete%20the%20specified,and%20safe%20command%20is...
+
+
 <h2> 💻 Linux 💻</h2>
 
 No genera el salto de línea final
