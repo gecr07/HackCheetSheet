@@ -12,6 +12,15 @@ Este sera un repositorio en donde ire añadiendo todo el conocimiento que vaya a
 > https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757
 
 
+# SUSE 
+
+> Linux, podrían intentar obtener este detalle de parches de seguridad instalados a través de alguna de las siguientes opciones:
+ 
+•	yum updateinfo list security installed
+•	zypper search --type patch --installed-only
+•	cat /var/log/zypp/history
+
+
 # Openvas
 
 > https://linuxhint.com/install-openvas-kali-linux/
