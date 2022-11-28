@@ -17,7 +17,11 @@ Este sera un repositorio en donde ire añadiendo todo el conocimiento que vaya a
 > Linux, podrían intentar obtener este detalle de parches de seguridad instalados a través de alguna de las siguientes opciones:
  
 •	yum updateinfo list security installed
+
+
 •	zypper search --type patch --installed-only
+
+
 •	cat /var/log/zypp/history
 
 
